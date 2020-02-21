@@ -5,7 +5,7 @@ from Crypto.Util.Padding import pad, unpad
 import time
 import argparse
 from random import randint
-from utils import *
+from utils_demo import *
 
 if __name__ == "__main__":
 
