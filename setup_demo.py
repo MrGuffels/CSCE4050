@@ -11,13 +11,13 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Setup for Bruteforce attack against randomized AES-128-CTR.')
     parser.add_argument('-n', type=int,
-                        help='Effective key length in bytes.', default=3)
+                        help='Effective key length in bytes.', default=1)
     parser.add_argument('-m1', type=str,
-                        help='Plaintext1 file input name.', default="files/m1.txt")
+                        help='Plaintext1 file input name.', default="files2/m1.txt")
     parser.add_argument('-m2', type=str,
-                        help='Plaintext2 file input name.', default="files/m2.txt")
+                        help='Plaintext2 file input name.', default="files2/m2.txt")
     parser.add_argument('-m3', type=str,
-                        help='Plaintext3 file input name.', default="files/m3.txt")
+                        help='Plaintext3 file input name.', default="files2/m3.txt")
 
     args = parser.parse_args()
     #The input value for brute force attack in bits. 16 bits is equal to 2 bytes.
@@ -32,18 +32,18 @@ if __name__ == "__main__":
 
     #Defining the key for encryption.
     main_key = bin(2 ** 127 + postfix_key)
-    write_file(fn = "files/key.bin", value = main_key)
+    write_file(fn = "files2/key.bin", value = main_key)
     
     #Encrypting plain-texts.
     nonce1, ctxt1 = encryptor_CTR(message=plaintext1, key=bitstring_to_bytes(main_key))
-    write_bytes(fn = "files/c1.bin", value = ctxt1)
-    write_bytes(fn = "files/nonce1.bin", value = nonce1)    
+    write_bytes(fn = "files2/c1.bin", value = ctxt1)
+    write_bytes(fn = "files2/nonce1.bin", value = nonce1)    
 
     nonce2, ctxt2 = encryptor_CTR(message=plaintext2, key=bitstring_to_bytes(main_key))
-    write_bytes(fn = "files/c2.bin", value = ctxt2)
-    write_bytes(fn = "files/nonce2.bin", value = nonce2)    
+    write_bytes(fn = "files2/c2.bin", value = ctxt2)
+    write_bytes(fn = "files2/nonce2.bin", value = nonce2)    
 
     nonce3, ctxt3 = encryptor_CTR(message=plaintext3, key=bitstring_to_bytes(main_key))
-    write_bytes(fn = "files/c3.bin", value = ctxt3)
-    write_bytes(fn = "files/nonce3.bin", value = nonce3)    
+    write_bytes(fn = "files2/c3.bin", value = ctxt3)
+    write_bytes(fn = "files2/nonce3.bin", value = nonce3)    
     
