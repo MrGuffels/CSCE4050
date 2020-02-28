@@ -1,0 +1,83 @@
+File set 1
+bytearray(b'UNT is more than a place.')
+Total Possible Keys: 16777216
+Percent Complete: 1% in 7.816797256469727 seconds.
+Percent Complete: 2% in 14.353128671646118 seconds.
+Percent Complete: 3% in 20.887325286865234 seconds.
+Percent Complete: 4% in 27.062065362930298 seconds.
+Percent Complete: 5% in 33.587953090667725 seconds.
+Percent Complete: 6% in 40.67918133735657 seconds.
+Percent Complete: 6% in 47.57142782211304 seconds.
+Percent Complete: 7% in 53.635650873184204 seconds.
+Percent Complete: 8% in 59.67325019836426 seconds.
+Percent Complete: 9% in 66.98421382904053 seconds.
+Percent Complete: 10% in 73.06270170211792 seconds.
+Percent Complete: 11% in 79.48668575286865 seconds.
+Percent Complete: 12% in 86.00431895256042 seconds.
+Percent Complete: 13% in 93.48751163482666 seconds.
+Percent Complete: 14% in 99.7982234954834 seconds.
+Percent Complete: 15% in 105.83498001098633 seconds.
+Percent Complete: 16% in 112.43111562728882 seconds.
+Percent Complete: 17% in 118.6647379398346 seconds.
+Percent Complete: 18% in 124.85239553451538 seconds.
+Percent Complete: 19% in 131.2615704536438 seconds.
+Percent Complete: 20% in 137.25264239311218 seconds.
+Percent Complete: 21% in 144.12743043899536 seconds.
+Percent Complete: 22% in 150.7936999797821 seconds.
+Percent Complete: 23% in 156.89368200302124 seconds.
+Percent Complete: 24% in 163.6081738471985 seconds.
+Percent Complete: 25% in 170.12039041519165 seconds.
+Percent Complete: 26% in 177.15111899375916 seconds.
+Percent Complete: 27% in 183.53164720535278 seconds.
+Percent Complete: 28% in 189.70990419387817 seconds.
+Percent Complete: 29% in 196.3359456062317 seconds.
+Percent Complete: 30% in 202.47804045677185 seconds.
+Percent Complete: 31% in 209.10051894187927 seconds.
+Percent Complete: 32% in 216.47508478164673 seconds.
+Percent Complete: 33% in 223.11598873138428 seconds.
+Percent Complete: 34% in 229.5823836326599 seconds.
+Percent Complete: 35% in 236.8491234779358 seconds.
+Percent Complete: 36% in 243.34050250053406 seconds.
+Percent Complete: 37% in 249.5790913105011 seconds.
+Percent Complete: 38% in 256.61494541168213 seconds.
+Percent Complete: 39% in 262.8111596107483 seconds.
+Percent Complete: 40% in 269.88446593284607 seconds.
+Percent Complete: 41% in 277.09556221961975 seconds.
+Percent Complete: 42% in 282.98802042007446 seconds.
+Percent Complete: 43% in 289.4687714576721 seconds.
+Percent Complete: 44% in 295.8242449760437 seconds.
+Percent Complete: 45% in 302.2113058567047 seconds.
+Percent Complete: 46% in 308.7623746395111 seconds.
+Percent Complete: 47% in 314.8980164527893 seconds.
+Percent Complete: 48% in 321.317266702652 seconds.
+Percent Complete: 49% in 327.68157863616943 seconds.
+Percent Complete: 50% in 333.8480792045593 seconds.
+Percent Complete: 51% in 340.458487033844 seconds.
+Percent Complete: 52% in 346.43333292007446 seconds.
+Percent Complete: 53% in 352.82278299331665 seconds.
+Percent Complete: 54% in 358.793349981308 seconds.
+Percent Complete: 55% in 364.47708225250244 seconds.
+Percent Complete: 56% in 370.57775926589966 seconds.
+Percent Complete: 57% in 376.28270411491394 seconds.
+Percent Complete: 58% in 382.01982975006104 seconds.
+Percent Complete: 59% in 388.16214084625244 seconds.
+Percent Complete: 60% in 393.99197244644165 seconds.
+Percent Complete: 61% in 400.2438733577728 seconds.
+Percent Complete: 62% in 405.9960980415344 seconds.
+Percent Complete: 63% in 411.68455958366394 seconds.
+Percent Complete: 64% in 417.84303402900696 seconds.
+Percent Complete: 65% in 423.61061930656433 seconds.
+Percent Complete: 66% in 429.87733125686646 seconds.
+Percent Complete: 67% in 436.0209381580353 seconds.
+Percent Complete: 68% in 441.72594690322876 seconds.
+Percent Complete: 69% in 448.150328874588 seconds.
+Percent Complete: 70% in 455.23062229156494 seconds.
+Percent Complete: 73% in 472.8759310245514 seconds.
+Percent Complete: 74% in 478.62795329093933 seconds.
+File 1 Solution Found:0b110000001100101010111010
+File set 2
+bytearray(b'UNT is a state of mind.')
+File 2 Solution Found:0b110000001100101010111010
+File set 3
+bytearray(b'Here, knowledge grows and ideas become discoveries.')
+File 3 Solution Found:0b110000001100101010111010
