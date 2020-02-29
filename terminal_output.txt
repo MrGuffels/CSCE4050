@@ -74,10 +74,10 @@ Percent Complete: 69% in 448.150328874588 seconds.
 Percent Complete: 70% in 455.23062229156494 seconds.
 Percent Complete: 73% in 472.8759310245514 seconds.
 Percent Complete: 74% in 478.62795329093933 seconds.
-File 1 Solution Found:0b110000001100101010111010
+File 1 Solution Found:b'\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc0\xca\xba'
 File set 2
 bytearray(b'UNT is a state of mind.')
-File 2 Solution Found:0b110000001100101010111010
+File 2 Solution Found:b'\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc0\xca\xba'
 File set 3
 bytearray(b'Here, knowledge grows and ideas become discoveries.')
-File 3 Solution Found:0b110000001100101010111010
+File 3 Solution Found:b'\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc0\xca\xba'

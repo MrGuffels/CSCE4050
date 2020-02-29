@@ -22,7 +22,7 @@ def main():
         bytestring = bitstring_to_bytes(bin(2 ** 127 + j))  #Create bytestring adding j
         new_message_bytes = decryptor_CTR(cipher_list,nonce_list,bytestring)    #Run information through decryption
         if new_message_bytes == message_bytes:              #If new_message is same as message
-            print('File 1 Solution Found:'+str(bin(j)))
+            print('File 1 Solution Found:'+str(bytestring))
             key=j
             break
     if key == -1:
@@ -32,13 +32,13 @@ def main():
         message_bytes,cipher_list,nonce_list = getFileParts(2)
         new_message_bytes = decryptor_CTR(cipher_list,nonce_list,bytestring)
         if new_message_bytes == message_bytes:
-            print('File 2 Solution Found:'+str(bin(j)))
+            print('File 2 Solution Found:'+str(bytestring))
         else:
             print("That key doesn't work with File 2")
         message_bytes,cipher_list,nonce_list = getFileParts(3)
         new_message_bytes = decryptor_CTR(cipher_list,nonce_list,bytestring)
         if new_message_bytes == message_bytes:
-            print('File 3 Solution Found:'+str(bin(j)))
+            print('File 3 Solution Found:'+str(bytestring))
         else:
             print("That key doesn't work with File 3")
 
